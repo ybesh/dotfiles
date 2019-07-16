@@ -8,6 +8,7 @@ SYMLINK_DIR=$HOME
 mkdir -p .vim/files/backup
 mkdir -p .vim/files/swap
 mkdir -p .vim/files/undo
+mkdir -p .vim/files/info
 
 ln -s {$(pwd),$SYMLINK_DIR}/.vimrc
 ln -s {$(pwd),$SYMLINK_DIR}/.vim
