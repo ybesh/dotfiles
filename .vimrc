@@ -13,7 +13,9 @@ if dein#load_state(s:dein_dir)
     call dein#begin(s:dein_dir)
 
     call dein#add('wlangstroth/vim-racket')
-    call dein#add('petRUShka/vim-opencl.git')
+    call dein#add('petRUShka/vim-opencl')
+    call dein#add('vim-syntastic/syntastic')
+    call dein#add('Townk/vim-autoclose')
 
     call dein#end()
     call dein#save_state()
