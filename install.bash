@@ -11,6 +11,7 @@ function symlink_by_same_name()
 }
 
 # Bash
+symlink_by_same_name .inputrc
 
 # Vim
 rm -rf .vim/
